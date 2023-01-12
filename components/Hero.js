@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Hero = () => {
   return (
-    <div className='lg:flex pt-4 items-center justify-center px-4 lg:px-0'>
+    <div className='lg:flex pt-4 items-center justify-center px-4 lg:px-44'>
       <div className='lg:w-[45%] lg:h-screen lg:translate-y-[20%] '>
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold text-darkblue'>OUR BUSINESS TEAM</h1>
         <p className='lg:pt-5'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45  Contrary to popular belief, 

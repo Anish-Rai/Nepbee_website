@@ -11,7 +11,7 @@ const Navbar = () => {
     {href:'/#Contact', name:'Contact'},
 ]
   return (
-    <div className='flex justify-between items-center px-4 lg:px-44 pt-3 overflow-hidden lg:pt-9'>
+    <div className='flex justify-between items-center px-4 lg:px-44 py-3 overflow-hidden lg:pt-9'>
       <div>
         <Link href='/' passHref >  
           <img src='/logo.png' className='lg:ml-2 w-[50px] md:w-[40px] lg:w-[60px]' /> 
