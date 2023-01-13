@@ -12,7 +12,7 @@ const Services = () => {
         {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
     ]
   return (
-    <div className='lg:pt-20  py-10 px-4 bg-lightestblue lg:px-44 relative '>
+    <div className='lg:pt-20 lg:pb-24  py-10 px-4 bg-lightestblue lg:px-44 relative '>
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold pt-4 lg:pt-0 lg:pb-7 pb-3 relative z-20'> OUR SERVICES </h1>
         <span className='block w-[100%] h-[0.1rem] bg-slate-300 lg:mb-5'></span>
         <div className='flex '>
@@ -35,7 +35,7 @@ const Services = () => {
             </div>
             
         </div>
-        <Image src="/ellipse_1.svg" alt="" width={200} height={200} className="absolute top-0 left-0 z-10 hidden lg:block" />
+            <Image src="/ellipse_1.svg" alt="" width={200} height={200} className="absolute top-0 left-0 z-10 hidden lg:block" />
             <Image src="/ellipse_2.svg" alt="" width={200} height={200} className="absolute top-1/3 right-0 z-10 hidden lg:block" />
     </div>
   )
