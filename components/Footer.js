@@ -21,8 +21,8 @@ const Footer = () => {
     {serviceName:'Simple/Static Website'},
   ]
   return (
-    <div className='lg:pt-20   bg-[#26254F] text-white'>
-      <div className='grid grid-cols-3 pb-10 lg:px-44 px-4'>
+    <div className='lg:pt-20   bg-[#26254F] text-white pt-10 '>
+      <div className='grid gap-y-4 lg:grid-cols-3 pb-10 lg:px-44 px-4'>
         <ul>
           <h3 className='text-3xl font-semibold pb-3'>Our Services</h3>
           {
@@ -71,7 +71,7 @@ const Footer = () => {
         
       </div>
       <div className=' py-3 bg-black lg:px-44 px-4'>
-        <h4 className='flex items-center'>Copyright 2023 <FaRegCopyright className='mx-2'/> Nepbee Technology Pvt Ltd. </h4>
+        <h4 className='flex items-center text-sm lg:text-base'>Copyright 2023 <FaRegCopyright className='mx-2'/> Nepbee Technology Pvt Ltd. </h4>
       </div>
     </div>
   )
