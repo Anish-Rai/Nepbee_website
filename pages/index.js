@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Portfolio from '../components/Portfolio'
 import Teams from '../components/Teams'
+import Pricing from '../components/Pricing'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Services />
         <Portfolio />
         <Teams />
+        <Pricing />
       </main>
     </>
   )

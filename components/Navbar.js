@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       <div className='flex'>
-        <ul className={`lg:flex absolute lg:opacity-100 lg:static lg:w-auto lg:bg-transparent top-[3.5rem] bg-slate-300 w-screen transition-all ease-out duration-500 ${state? '-left-[100%] opacity-10':'left-0 opacity-100'} lg:pr-3`}>
+        <ul className={`lg:flex absolute lg:opacity-100 lg:static lg:w-auto lg:bg-transparent top-[3.5rem] bg-white w-screen transition-all ease-out duration-500 ${state? '-left-[100%] opacity-10':'left-0 opacity-100'} lg:pr-3`}>
         {
           navItems.map(({href,name})=>{
             return (
