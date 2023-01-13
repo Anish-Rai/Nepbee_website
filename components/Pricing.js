@@ -12,7 +12,7 @@ const Pricing = () => {
         
     ]
   return (
-    <div className='lg:pt-14 lg:pb-32 py-8 px-4  lg:px-44'>
+    <div id='pricing' className='lg:pt-14 lg:pb-32 py-8 px-4  lg:px-44'>
         <h1 className=' text-2xl lg:text-5xl lg:font-bold font-semibold  lg:pt-0 lg:pb-4 pb-3'>Pricings</h1>
         <p className='pb-10'>Pricing and sevices Suitable for individual blogers or startup Suitable for individual blogers or startup Pricing and sevices Suitable for individual blogers or startup Suitable for individual blogers or startup Pricing and sevices Suitable for individual blogers or startup Suitable for individual blogers or startup</p>
         <div className='grid lg:grid-cols-3 gap-3'>

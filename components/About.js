@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const About = () => {
   return (
-    <div className='lg:flex py-10 lg:pt-0  lg:bg-transparent px-4 lg:px-44'>
+    <div id='about' className='lg:flex py-10 lg:pt-0  lg:bg-transparent px-4 lg:px-44'>
       <div className='lg:w-[50%]'>
         
         <Image src="/about.webp" alt="" width={600} height={800} className=" w-[70%] hidden lg:block" />

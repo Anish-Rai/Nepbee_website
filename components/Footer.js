@@ -21,7 +21,7 @@ const Footer = () => {
     {serviceName:'Simple/Static Website'},
   ]
   return (
-    <div className='lg:pt-20   bg-[#26254F] text-white pt-10 '>
+    <div id='footer' className='lg:pt-20   bg-[#26254F] text-white pt-10 '>
       <div className='grid gap-y-4 lg:grid-cols-3 pb-10 lg:px-44 px-4'>
         <ul>
           <h3 className='text-3xl font-semibold pb-3'>Our Services</h3>

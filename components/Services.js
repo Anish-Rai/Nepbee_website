@@ -12,7 +12,7 @@ const Services = () => {
         {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
     ]
   return (
-    <div className='lg:pt-20 lg:pb-24  py-10 px-4 bg-lightestblue lg:px-44 relative '>
+    <div id='services' className='lg:pt-20 lg:pb-24  py-10 px-4 bg-lightestblue lg:px-44 relative '>
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold pt-4 lg:pt-0 lg:pb-7 pb-3 relative z-20'> OUR SERVICES </h1>
         <span className='block w-[100%] h-[0.1rem] bg-slate-300 lg:mb-5'></span>
         <div className='flex '>

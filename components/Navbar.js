@@ -5,9 +5,9 @@ const Navbar = () => {
   const [state, setState] = useState(true)
   const navItems = [
     {href:'/', name:'Home'},
-    {href:'../#about', name:'About'},
-    {href:'../#services', name:'Services'},
-    {href:'../#portfolio', name:'Portfolio'},
+    {href:'/#about', name:'About'},
+    {href:'/#services', name:'Services'},
+    {href:'/#portfolio', name:'Portfolio'},
     {href:'/#Contact', name:'Contact'},
 ]
   return (
@@ -32,10 +32,12 @@ const Navbar = () => {
         }
         </ul>
         <button className='invisible lg:visible transition-all duration-300 hover:text-white bg-enquiry hover:bg-darkblue px-3 rounded-full font-semibold' > Enquire Now </button>
-        <div onClick={()=>setState(!state)} className="lg:hidden block">
-          <span className={` ${Style.menu}`}></span>
-          <span className={`my-1 ${Style.menu}`}></span>
-          <span className={` ${Style.menu}`}></span>
+        <div onClick={()=>setState(!state)} className="lg:hidden block ">
+          <span className={`transition-all ease-out duration-500 ${Style.menu} ${state?'absolute right-4 mt-4':' rotate-45 mt-2 postion absolute'}`}></span>
+          <span className={`transition-all ease-out duration-500 my-1 ${Style.menu} ${state?'absolute mt-2 right-4 opacity-100':' absolute mt-2 right-[20%] opacity-0'}`}></span>
+          <span className={`transition-all ease-out duration-500 ${Style.menu} ${state?'absolute right-4':' -rotate-45 mt-2'}`}></span>
+
+          
         </div>
       </div>
     </div>

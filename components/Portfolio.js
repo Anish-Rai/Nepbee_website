@@ -18,7 +18,7 @@ const Portfolio = () => {
     {projectType:'Design'},
   ]
   return (
-    <div className='lg:pt-20  py-10 px-4  lg:px-44 text-center'>
+    <div id='portfolio' className='lg:pt-20  py-10 px-4  lg:px-44 text-center'>
       <h1 className=' text-2xl lg:text-5xl lg:font-bold font-semibold  lg:pt-0 lg:pb-2 pb-3'>PORTFOLIO</h1>
       <p className='text-lg '>Our recent projects</p>
       <ul className='flex justify-center pt-3'>
