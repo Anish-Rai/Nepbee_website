@@ -22,7 +22,7 @@ const Teams = () => {
                 {
                     teamMemberList.map(({name,title,description},key)=>{
                         return (
-                            <div className=''> 
+                            <div key={key}> 
                                 <div className='flex justify-center items-center'> 
                                     <Image src={`/${name}`} alt="" width={200} height={200} className=" w-[50%] lg:w-[100%]" />
                                </div>
