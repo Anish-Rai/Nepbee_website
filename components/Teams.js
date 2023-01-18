@@ -26,7 +26,7 @@ const Teams = () => {
                                 <div className='flex justify-center items-center'> 
                                     <Image src={`/${name}`} alt="" width={200} height={200} className=" w-[50%] lg:w-[100%]" />
                                </div>
-                                <h3> {title} </h3>
+                                <h3 className='text-xl font-semibold'> {title} </h3>
                                 <p> {description} </p>
                             </div>
                         )

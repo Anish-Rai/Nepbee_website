@@ -6,7 +6,7 @@ const Hero = () => {
       <div className='lg:w-[45%] lg:h-screen lg:translate-y-[20%] '>
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold text-darkblue'>WE ARE NEPAL BASED IT COMPANY</h1>
         <p className='lg:pt-5'>We believe in the power of innovation and strive to stay ahead of the curve when it comes to emerging technologies. Our team of highly skilled and experienced professionals are committed to delivering tailored solutions that meet the unique needs of each and every one of our clients.</p>
-        <button className='bg-pinkish lg:mt-7 mt-2 text-sm lg:text-base text-white px-3 py-2 rounded-full hover:bg-pink-600'>LEARN MORE</button>
+        {/* <button className='bg-pinkish lg:mt-7 mt-2 text-sm lg:text-base text-white px-3 py-2 rounded-full hover:bg-pink-600'>LEARN MORE</button> */}
       </div>
 
       <div className='lg:w-[55%]'>

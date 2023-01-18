@@ -63,7 +63,7 @@ const Footer = () => {
           <ul className='pt-10'>
             <h3 className='text-2xl  pb-3'>Subscribe for Newsletter</h3>
             <li> 
-              <input type="email" name="email" id="email" placeholder='Enter your email' className='p-2 pr-7' /> 
+              <input type="email" name="email" id="email" placeholder='Enter your email' className='p-2 pr-7 text-black' /> 
               <button type="submit" className='bg-orange-500 p-2 text-white hover:bg-orange-600'>Submit</button>
             </li>
         </ul>
