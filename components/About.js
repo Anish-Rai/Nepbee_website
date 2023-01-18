@@ -15,9 +15,9 @@ const About = () => {
 At NepBee, we specialize in a range of IT services including web development, software development, cloud computing, cybersecurity, and more. We have a track record of successfully completing projects on time and within budget, and we pride ourselves on our ability to build long-term relationships with our clients.
         </p>
         <p className='mt-7 hidden lg:block'>
-        Our mission is simple: to help our clients leverage technology to drive growth and success. Whether you're a small business looking to make your mark in the industry or a large corporation seeking to stay competitive, we have the expertise and resources to help you reach your goals.
+        Our mission is simple: to help our clients leverage technology to drive growth and success. Whether you&apos;re a small business looking to make your mark in the industry or a large corporation seeking to stay competitive, we have the expertise and resources to help you reach your goals.
 
-So if you're ready to take your business to the next level with the help of a reliable and experienced IT partner, look no further than NepBee. Contact us today to learn more about how we can help you succeed.
+So if you&apos;re ready to take your business to the next level with the help of a reliable and experienced IT partner, look no further than NepBee. Contact us today to learn more about how we can help you succeed.
 
 
         </p>

@@ -10,7 +10,7 @@ import {BsCloudCheck} from 'react-icons/bs'
 
 const Services = () => {
     const serviceList = [
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:FaLaptopCode,title:'Web Design & Development',description:''},
         {logo:HiDevicePhoneMobile,title:'Mobile App Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
         {logo:MdContentPaste,title:'Content Writing',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
         {logo:AiOutlineFileSearch,title:'Digital Marketing & SEO',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
