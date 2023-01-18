@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Style from '../styles/Navbar.module.css'
+import Image from 'next/image'
 const Navbar = () => {
   const [state, setState] = useState(true)
   const navItems = [
@@ -14,7 +15,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center px-4 lg:px-44 py-3 overflow-hidden lg:pt-9'>
       <div>
         <Link href='/' passHref >  
-          <img src='/logo.png' className='lg:ml-2 w-[50px] md:w-[40px] lg:w-[60px]' /> 
+          <Image src='/logo.png' alt='' className='lg:ml-2 w-[50px] md:w-[40px] lg:w-[60px]' /> 
           <span className='lg:text-xl lg:font-semibold hidden lg:block'>NepBee </span>
         </Link>
       </div>

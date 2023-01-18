@@ -8,7 +8,6 @@ import Portfolio from '../components/Portfolio'
 import Teams from '../components/Teams'
 import Pricing from '../components/Pricing'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
