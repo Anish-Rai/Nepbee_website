@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 const Teams = () => {
     const teamMemberList = [
-        {name:'person1.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person2.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person3.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person2.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person3.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person1.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
-        {name:'person3.svg', title:'CEO',description:'sflj lsajf ksdfjldlgj lj sdlkfj lasfkl '},
+        {name:'person1.svg', title:'Laxman Acharya,',description:'Content Writer'},
+        {name:'person2.svg', title:'Anushil Karki,',description:'Backend Developer'},
+        {name:'person3.svg', title:'Anish Rai,',description:'Data Analyst'},
+        {name:'person2.svg', title:'Nishan Bhattarai,',description:'Frontend Developer'},
+        {name:'person3.svg', title:'Bibek Bhattarai,',description:'Backend Developer'},
+        {name:'person1.svg', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
+        {name:'person3.svg', title:'Suman Neupane,',description:'Backend Developer'},
     ]
   return (
     <div id='teams' className='lg:pt-14 lg:pb-32 py-8 px-4  lg:px-44 bg-[#FED8B1] text-center'>

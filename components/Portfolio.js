@@ -2,21 +2,23 @@ import React from 'react'
 import Image from 'next/image'
 
 const Portfolio = () => {
-  const projectList = [
-    {projectName:'project1.jpg'},
-    {projectName:'project2.jpg'},
-    {projectName:'project3.jpg'},
-    {projectName:'project2.jpg'},
-    {projectName:'project3.jpg'},
-    {projectName:'project1.jpg'},
-  ]
-
   const projectTypeList = [
     {projectType:'All'},
     {projectType:'Analytics'},
     {projectType:'Web'},
     {projectType:'Design'},
   ]
+
+  const projectList = [
+    {projectName:'project1.jpg',categories:'web'},
+    {projectName:'project2.jpg',categories:'analytic'},
+    {projectName:'project3.jpg',categories:'web'},
+    {projectName:'project2.jpg',categories:'design'},
+    {projectName:'project3.jpg',categories:'web'},
+    {projectName:'project1.jpg',categories:'web'},
+  ]
+
+  
   return (
     <div id='portfolio' className='lg:pt-20  py-10 px-4  lg:px-44 text-center'>
       <h1 className=' text-2xl lg:text-5xl lg:font-bold font-semibold  lg:pt-0 lg:pb-2 pb-3'>PORTFOLIO</h1>
@@ -29,11 +31,12 @@ const Portfolio = () => {
         })}
       </ul>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 pt-7 gap-4'>
-        { projectList.map(({projectName},key)=>{
+        { projectList.map(({projectName,categories},key)=>{
           return (
             <div key={key}>
               <Image src={`/${projectName}`} alt="" width={400} height={400} className=" w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
             </div>
+            
             
           )
         })}

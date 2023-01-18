@@ -1,15 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
-import {FaLaptopCode} from 'react-icons/fa'
+import {FaLaptopCode,FaRegChartBar} from 'react-icons/fa'
+import {HiDevicePhoneMobile} from 'react-icons/hi2'
+import {MdContentPaste} from 'react-icons/md'
+import {AiOutlineFileSearch} from 'react-icons/ai'
+import {MdDesignServices} from 'react-icons/md'
+import {BiDesktop} from 'react-icons/bi'
+import {BsCloudCheck} from 'react-icons/bs'
 
 const Services = () => {
     const serviceList = [
         {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
-        {logo:FaLaptopCode,title:'Web Design & Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:HiDevicePhoneMobile,title:'Mobile App Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:MdContentPaste,title:'Content Writing',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:AiOutlineFileSearch,title:'Digital Marketing & SEO',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:MdDesignServices,title:'Graphic & Logo Design',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:BiDesktop,title:'Desktop App Development',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:BsCloudCheck,title:'Domain and Hosting Services',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        {logo:FaRegChartBar,title:'Data Analytics',description:'Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the '},
+        
     ]
   return (
     <div id='services' className='lg:pt-20 lg:pb-24  py-10 px-4 bg-lightestblue lg:px-44 relative '>
