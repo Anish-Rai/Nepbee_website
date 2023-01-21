@@ -9,14 +9,18 @@ const Navbar = () => {
     {href:'/#about', name:'About'},
     {href:'/#services', name:'Services'},
     {href:'/#portfolio', name:'Portfolio'},
-    {href:'/#Contact', name:'Contact'},
+    {href:'mailto:nepbeetechnology@gmail.com', name:'Contact'},
 ]
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true)
+  const [visible, setVisible] = useState(false)
   const handleScroll = () => {
       const currentScrollPos = window.scrollY
-      if(currentScrollPos > prevScrollPos){
+      if (currentScrollPos===0){
+        setVisible(false)
+        
+      }
+      else if(currentScrollPos > prevScrollPos){
           setVisible(false)
       }else{
           setVisible(true)
@@ -24,7 +28,7 @@ const Navbar = () => {
 
       setPrevScrollPos(currentScrollPos)
   }
-
+console.log(visible)
   useEffect( () => {
       window.addEventListener('scroll', handleScroll);
 
@@ -32,7 +36,7 @@ const Navbar = () => {
   })
 
   return (
-    <div className={`flex justify-between items-center px-4 lg:px-44 py-3  lg:pt-9 sticky z-50 bg-white  ${visible ? 'lg:-top-5 top-0' : ''}`}>
+    <div className={`flex justify-between items-center px-4 lg:px-44 py-3  lg:pt-9 transition-all ease-out duration-300 ${visible ? 'lg:-top-5 top-0 sticky z-50 bg-white shadow-lg' : 'static bg-transparent -top-[20%]'}`}>
       <div>
         <Link href='/' passHref >  
           <Image src='/logo.png' alt='' width={400} height={400} className='lg:ml-2 w-[50px] md:w-[40px] lg:w-[60px]' /> 
@@ -41,7 +45,7 @@ const Navbar = () => {
       </div>
 
       <div className='flex'>
-        <ul className={`lg:flex absolute lg:opacity-100 lg:static lg:w-auto lg:bg-transparent top-[3.5rem] bg-white w-screen transition-all ease-out duration-500 ${state? '-left-[100%] opacity-10':'left-0 opacity-100'} lg:pr-3`}>
+        <ul className={`lg:flex absolute z-50 lg:opacity-100 lg:static lg:w-auto lg:bg-transparent top-[3.46rem] bg-white w-screen transition-all ease-out duration-500 ${state? '-left-[100%] opacity-10':'left-0 opacity-100'} lg:pr-3`}>
         {
           navItems.map(({href,name})=>{
             return (
@@ -52,7 +56,7 @@ const Navbar = () => {
           })
         }
         </ul>
-        <button className='invisible lg:visible transition-all duration-300 hover:text-white bg-enquiry hover:bg-darkblue px-3 rounded-full font-semibold' > Enquire Now </button>
+        <button className='invisible lg:visible transition-all duration-300 hover:text-white bg-enquiry hover:bg-darkblue px-3 rounded-full font-semibold' > <a href="mailto:nepbeetechnology@gmail.com">Enquire Now </a></button>
         <div onClick={()=>setState(!state)} className="lg:hidden block ">
           <span className={`transition-all ease-out duration-500 ${Style.menu} ${state?'absolute right-4 mt-4':' rotate-45 mt-2 postion absolute'}`}></span>
           <span className={`transition-all ease-out duration-500 my-1 ${Style.menu} ${state?'absolute mt-2 right-4 opacity-100':' absolute mt-2 right-[20%] opacity-0'}`}></span>

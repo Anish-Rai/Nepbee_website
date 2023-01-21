@@ -34,8 +34,8 @@ const Portfolio = () => {
       <ul className='flex justify-center pt-3'>
         {projectTypeList.map(({projectType},key)=>{
           return (
-            projectType === 'All' ? <li key={key} className={`px-4 border rounded-full mx-1 mb-2 hover:border-pinkish ${active===projectType?'border-pinkish text-pinkish':'border-black'}`} onClick={()=>{setItems(projectList); setActive('All')}}>{projectType}  </li>
-                        : <li key={key} className={`px-4 border rounded-full mx-1 mb-2 hover:border-pinkish ${active===projectType?'border-pinkish text-pinkish':'border-black'}`} onClick={()=>{itemHandler(projectType.toLowerCase()); setActive(projectType)}}>{projectType} </li>
+            projectType === 'All' ? <li key={key} className={`hover:cursor-pointer px-4 border rounded-full mx-1 mb-2 hover:border-pinkish ${active===projectType?'border-pinkish text-pinkish':'border-black'}`}  onClick={()=>{setItems(projectList); setActive('All')}}>{projectType}  </li>
+                        : <li key={key} className={`hover:cursor-pointer px-4 border rounded-full mx-1 mb-2 hover:border-pinkish ${active===projectType?'border-pinkish text-pinkish':'border-black'}`} onClick={()=>{itemHandler(projectType.toLowerCase()); setActive(projectType)}}>{projectType} </li>
            
           )
         })}
@@ -44,7 +44,7 @@ const Portfolio = () => {
         { items.map(({projectName,categories},key)=>{
           return (
             <div key={key}>
-              <Image src={`/${projectName}`} alt="" width={400} height={400} className=" w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
+              <Image src={`/${projectName}`} alt="" width={400} height={400} className="hover:cursor-pointer w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
             </div>
             
             

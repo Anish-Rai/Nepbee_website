@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs'
-import {FaRegCopyright} from 'react-icons/fa'
+import {FaRegCopyright,FaMobileAlt} from 'react-icons/fa'
+import {MdOutlineLocationOn} from 'react-icons/md'
 const Footer = () => {
   const navItems = [
     {href:'/', name:'Home'},
@@ -22,7 +23,7 @@ const Footer = () => {
   ]
   return (
     <div id='footer' className='lg:pt-20   bg-[#26254F] text-white pt-10 '>
-      <div className='grid gap-y-4 lg:grid-cols-3 pb-10 lg:px-44 px-4'>
+      <div className='grid gap-y-4 lg:grid-cols-4 pb-10 lg:px-44 px-4'>
         <ul>
           <h3 className='text-3xl font-semibold pb-3'>Our Services</h3>
           {
@@ -39,19 +40,27 @@ const Footer = () => {
             {
               navItems.map(({href,name},key)=>{
                 return (
-                  <li className='leading-[1.9rem]' key={key}>
+                  <li className='leading-[1.9rem] hover:text-orange-500' key={key}>
                     <Link href={href}> {name} </Link>
                   </li>
                 )
               })
             }
         </ul>
-
+        <ul>
+          <h3 className='text-3xl font-semibold pb-3'>Contact Info</h3>
+          <li className='flex items-center hover:text-orange-500 leading-[1.9rem]'>
+            <FaMobileAlt /> <a href="tel:+977-9840022255" className='pl-1'>+977-9840022255</a>
+          </li>
+          <li className='flex items-center hover:text-orange-500'>
+            <MdOutlineLocationOn className='text-lg' /> <p className='pl-1'>Kupondole, kandevta</p>
+          </li>
+        </ul>
         <div>
           <h3 className='text-3xl font-semibold pb-3'>Social Media Links</h3>
           <ul className='flex text-4xl'>
             <li className='hover:text-orange-500'> 
-              <Link href="#">  <BsFacebook />  </Link> 
+              <Link href="https://www.facebook.com/nepbeetech">  <BsFacebook />  </Link> 
             </li>
             <li className='px-10 hover:text-orange-500'> 
               <Link href="#"> <BsInstagram /> </Link>
@@ -67,6 +76,7 @@ const Footer = () => {
               <button type="submit" className='bg-orange-500 p-2 text-white hover:bg-orange-600'>Submit</button>
             </li>
         </ul>
+        
         </div>
         
       </div>

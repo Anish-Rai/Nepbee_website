@@ -24,7 +24,7 @@ export default function Home() {
         <Services />
         <Portfolio />
         <Teams />
-        <Pricing />
+        {/* <Pricing /> */}
       </main>
     </>
   )
