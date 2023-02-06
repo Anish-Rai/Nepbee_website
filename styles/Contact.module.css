@@ -1,0 +1,21 @@
+.eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    top:20%;
+    left: 25%;
+    height: 70px;
+    width: 70px;
+    background: white;
+  }
+  .eye:after { /*pupil*/
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+  }
+

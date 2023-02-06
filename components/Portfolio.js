@@ -10,12 +10,12 @@ const Portfolio = () => {
   ]
 
   const projectList = [
-    {projectName:'project1.jpg',categories:'web'},
-    {projectName:'project2.jpg',categories:'analytics'},
-    {projectName:'project3.jpg',categories:'web'},
-    {projectName:'project2.jpg',categories:'design'},
-    {projectName:'project3.jpg',categories:'web'},
-    {projectName:'project1.jpg',categories:'web'},
+    {projectName:'project1.jpg',categories:'web',link:'https://www.ultimodeal.com.np/'},
+    {projectName:'project2.jpg',categories:'analytics',link:'https://admin-dash-board-woad.vercel.app/'},
+    {projectName:'project3.jpg',categories:'web',link:'https://mycrypto-dusky.vercel.app/'},
+    {projectName:'project2.jpg',categories:'design',link:'https://next-challenges-iota.vercel.app/digitalLanding'},
+    {projectName:'project3.jpg',categories:'web',link:'https://next-challenges-iota.vercel.app/digitalLanding'},
+    {projectName:'project1.jpg',categories:'web',link:'https://next-challenges-iota.vercel.app/careerLanding'},
   ]
   const [items, setItems] = useState(projectList)
   const [active, setActive] = useState('All')
@@ -41,10 +41,12 @@ const Portfolio = () => {
         })}
       </ul>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 pt-7 gap-4'>
-        { items.map(({projectName,categories},key)=>{
+        { items.map(({projectName,link},key)=>{
           return (
-            <div key={key}>
-              <Image src={`/${projectName}`} alt="" width={400} height={400} className="hover:cursor-pointer w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
+            <div key={key} className="w-fit">
+              <a href={link} target="_blank">
+                <Image src={`/${projectName}`} alt="" width={400} height={400} className="hover:cursor-pointer w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
+              </a>
             </div>
             
             

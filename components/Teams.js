@@ -7,7 +7,7 @@ const Teams = () => {
         {name:'anish.png', title:'Anish Rai,',description:'Data Analyst'},
         {name:'nishant.png', title:'Nishan Bhattarai,',description:'Frontend Developer'},
         {name:'bibek.png', title:'Bibek Bhattarai,',description:'Backend Developer'},
-        {name:'basu.png', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
+        {name:'bass1.png', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
         // {name:'person3.svg', title:'Suman Neupane,',description:'Backend Developer'},
     ]
   return (
