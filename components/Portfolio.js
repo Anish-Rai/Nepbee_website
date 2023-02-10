@@ -44,7 +44,7 @@ const Portfolio = () => {
         { items.map(({projectName,link},key)=>{
           return (
             <div key={key} className="w-fit">
-              <a href={link} target="_blank">
+              <a href={link} target="_blank" rel='noreferrer'>
                 <Image src={`/${projectName}`} alt="" width={400} height={400} className="hover:cursor-pointer w-[100%] h-[100%] transition-transform duration-300 ease-in-out hover:scale-105 py-1" />
               </a>
             </div>
