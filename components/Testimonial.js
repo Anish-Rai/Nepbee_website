@@ -14,7 +14,7 @@ const Testimonial = () => {
                     <div className='flex'>
                         <Image src="/brad.jpeg" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
-                            <h4 className='text-xl font-semibold'>Mr. Brad Carson</h4>
+                            <h4 className='text-xl font-semibold'>Mr. Brad Carson,</h4>
                             <h5 className='text-lg font-semibold'>Owner of Son Family Restaurant</h5> 
                         </div>
                     </div>
@@ -35,10 +35,10 @@ const Testimonial = () => {
                 
                 <div className=' border  p-4'>
                     <div className='flex'>
-                        <Image src="/bass.png" alt='' width={100} height={100} className="rounded-full" />
+                        <Image src="/avatar.jpg" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
-                            <h4 className='text-xl font-semibold'>Mr. Ram lila Gurung</h4>
-                            <h5 className='text-lg font-semibold'>owner of retail shop</h5> 
+                            <h4 className='text-xl font-semibold'>Mr. Ram lila Gurung,</h4>
+                            <h5 className=' font-semibold'>owner of retail shop</h5> 
                         </div>
                     </div>
                     <div className='pt-2'>
