@@ -4,8 +4,8 @@ const Teams = () => {
     const teamMemberList = [
         // {name:'person1.svg', title:'Laxman Acharya,',description:'Full Stack Developer'},
         {name:'anushil.jpg', title:'Anushil Karki,',description:'Backend Developer'},
-        {name:'anish.png', title:'Anish Rai,',description:'Frontend Developer'},
-        {name:'laxman.jpg', title:'Laxman Acharya,',description:'Content Writer'},
+        {name:'anish.png', title:'Anish Rai,',description:'UI/UX designer, Frontend Developer'},
+        {name:'laxman.jpg', title:'Laxman Acharya,',description:'Full stack developer, Content Writer'},
         {name:'bibek.jpg', title:'Bibek Bhattarai,',description:'Backend Developer'},
         {name:'bass.png', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
         // {name:'person3.svg', title:'Suman Neupane,',description:'Backend Developer'},
