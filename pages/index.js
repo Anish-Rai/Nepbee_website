@@ -3,12 +3,14 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import About from '../components/About'
 import Hero from '../components/Hero'
-import Services from './Service'
+import ServiceList from '../components/ServiceList'
 import Portfolio from '../components/Portfolio'
 import Teams from '../components/Teams'
 import Pricing from '../components/Pricing'
 import Contact from '../components/Contact'
 import react, {useState} from 'react'
+import Testimonial from '../components/Testimonial'
+import ContactUs from '../components/ContactUs'
 
 
 export default function Home() {
@@ -75,10 +77,12 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Services />
+        <ServiceList />
         <Portfolio />
         <Teams />
-        <Contact inputs={inputs} />
+        <Testimonial />
+        <ContactUs />
+        {/* <Contact inputs={inputs} /> */}
         {/* <Pricing /> */}
       </main>
     </>

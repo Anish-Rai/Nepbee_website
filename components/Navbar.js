@@ -9,7 +9,7 @@ const Navbar = () => {
     {href:'/#about', name:'About'},
     {href:'/#services', name:'Services'},
     {href:'/#portfolio', name:'Portfolio'},
-    {href:'mailto:nepbeetechnology@gmail.com', name:'Contact'},
+    {href:'/#contactus', name:'Contact'},
 ]
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -28,7 +28,6 @@ const Navbar = () => {
 
       setPrevScrollPos(currentScrollPos)
   }
-console.log(visible)
   useEffect( () => {
       window.addEventListener('scroll', handleScroll);
 
@@ -56,7 +55,7 @@ console.log(visible)
           })
         }
         </ul>
-        <button className='invisible lg:visible transition-all duration-300 hover:text-white bg-enquiry hover:bg-darkblue px-3 rounded-full font-semibold' > <a href="mailto:nepbeetechnology@gmail.com">Enquire Now </a></button>
+        {/* <button className='invisible lg:visible transition-all duration-300 hover:text-white bg-enquiry hover:bg-darkblue px-3 rounded-full font-semibold' > <a href="mailto:nepbeetechnology@gmail.com">Enquire Now </a></button> */}
         <div onClick={()=>setState(!state)} className="lg:hidden block ">
           <span className={`transition-all ease-out duration-500 ${Style.menu} ${state?'absolute right-4 mt-4':' rotate-45 mt-2 postion absolute'}`}></span>
           <span className={`transition-all ease-out duration-500 my-1 ${Style.menu} ${state?'absolute mt-2 right-4 opacity-100':' absolute mt-2 right-[20%] opacity-0'}`}></span>
