@@ -12,10 +12,10 @@ const Testimonial = () => {
                 
                 <div className=' border  p-4'>
                     <div className='flex'>
-                        <Image src="/bass.png" alt='' width={100} height={100} className="rounded-full" />
+                        <Image src="/brad.jpeg" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
-                            <h4 className='text-xl font-semibold'>Mrs. Laxman Acharya</h4>
-                            <h5 className='text-lg font-semibold'>owner of xyz company</h5> 
+                            <h4 className='text-xl font-semibold'>Mr. Brad Carson</h4>
+                            <h5 className='text-lg font-semibold'>Owner of Son Family Restaurant</h5> 
                         </div>
                     </div>
                     <div className='pt-2'>
@@ -24,7 +24,7 @@ const Testimonial = () => {
                         ))
                        }
                         <p className='pt-2'>
-                            Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the 
+                            It was very pleasant experience working with nepbee team. They were very helpful from the designing phase of the project till the end of the developement of project. They tailored the project according to my need and nailed the project. The project was completed on time and within the budget. Highly reccomended.
                         </p>
                     </div>
                 </div>
@@ -37,8 +37,8 @@ const Testimonial = () => {
                     <div className='flex'>
                         <Image src="/bass.png" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
-                            <h4 className='text-xl font-semibold'>Mrs. Laxman Acharya</h4>
-                            <h5 className='text-lg font-semibold'>owner of xyz company</h5> 
+                            <h4 className='text-xl font-semibold'>Mr. Ram lila Gurung</h4>
+                            <h5 className='text-lg font-semibold'>owner of retail shop</h5> 
                         </div>
                     </div>
                     <div className='pt-2'>
@@ -47,7 +47,7 @@ const Testimonial = () => {
                         ))
                        }
                         <p className='pt-2'>
-                            Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the Contrary to popular belief, Lorem Ipsum is not simply randord in classical literature, discovered the 
+                            I always wanted to expand the reach of my business and wanted to leverage the internet for that. But I didnt know exactly where to start. I saw the add of Nepbee in facebook and reach out to them. They gave me the idea of how to expand the business online and helped me greately in digital marketing aspects which brought me new sets of customer.
                         </p>
                     </div>
                 </div>

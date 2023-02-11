@@ -3,11 +3,11 @@ import Image from 'next/image'
 const Teams = () => {
     const teamMemberList = [
         // {name:'person1.svg', title:'Laxman Acharya,',description:'Full Stack Developer'},
-        {name:'anushil.png', title:'Anushil Karki,',description:'Backend Developer'},
-        {name:'anish.png', title:'Anish Rai,',description:'Data Analyst'},
-        {name:'nishant.png', title:'Nishan Bhattarai,',description:'Frontend Developer'},
-        {name:'bibek.png', title:'Bibek Bhattarai,',description:'Backend Developer'},
-        {name:'bass1.png', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
+        {name:'anushil.jpg', title:'Anushil Karki,',description:'Backend Developer'},
+        {name:'anish.png', title:'Anish Rai,',description:'Frontend Developer'},
+        {name:'laxman.jpg', title:'Laxman Acharya,',description:'Content Writer'},
+        {name:'bibek.jpg', title:'Bibek Bhattarai,',description:'Backend Developer'},
+        {name:'bass.png', title:'Kaushal Bhattarai,',description:'Graphics Designer, UI/UX'},
         // {name:'person3.svg', title:'Suman Neupane,',description:'Backend Developer'},
     ]
   return (
