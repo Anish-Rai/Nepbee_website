@@ -4,13 +4,13 @@ import {FaQuoteLeft} from 'react-icons/fa'
 import {AiFillStar} from 'react-icons/ai'
 const Testimonial = () => {
   return (
-    <div className='lg:px-44 lg:py-20 px-4'>
+    <div className='lg:px-44 lg:py-20 px-4 bg-slate-100'>
         
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold pt-9 lg:pt-0 lg:text-center'>TESTIMONIAL</h1>
         <div className='md:grid md:grid-cols-2 md:gap-4 pt-3 lg:pt-10'>
             <div>
                 
-                <div className=' border  p-4'>
+                <div className=' border  p-4 bg-white'>
                     <div className='flex'>
                         <Image src="/brad.jpeg" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
@@ -33,7 +33,7 @@ const Testimonial = () => {
 
             <div className='pt-4 lg:pt-0 pb-7'>
                 
-                <div className=' border  p-4'>
+                <div className=' border  p-4 bg-white'>
                     <div className='flex'>
                         <Image src="/avatar.jpg" alt='' width={100} height={100} className="rounded-full" />
                         <div className='pt-4 pl-5'>
