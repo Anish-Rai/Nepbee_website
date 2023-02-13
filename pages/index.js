@@ -11,7 +11,7 @@ import Contact from '../components/Contact'
 import react, {useState} from 'react'
 import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
-
+import ToolsAndTechnology from '../components/ToolsAndTechnology'
 
 export default function Home() {
   const inputs = [
@@ -81,6 +81,7 @@ export default function Home() {
         <Portfolio />
         <Teams />
         <Testimonial />
+        <ToolsAndTechnology />
         <ContactUs />
         {/* <Contact inputs={inputs} /> */}
         {/* <Pricing /> */}
