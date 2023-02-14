@@ -6,7 +6,7 @@ const WebDevelopment = () => {
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-[#756bd3] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Build Your Responsive Website With Us.</h1>  
-            <div className='flex justify-end' > <Image src={'/services/webdesign.png'} alt="" width={550} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/webdesign.png'} alt="webdesign" priority width={550} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading provider of website development services, offering custom solutions to businesses of all sizes. Our team of experienced developers uses the latest technologies and tools to create innovative, user-friendly websites that meet the unique needs of each client.
