@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import DigitalMarkeingFaq from '../faq/DigitalMarketingFaq'
 const Digital_Marketing = () => {
   return (
     <div className=''>
-        <div className='lg:grid lg:grid-cols-2 bg-[#023A81] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
+        <div className='lg:grid lg:grid-cols-2 bg-[#168086] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Grow Your Business With Us</h1>  
-            <div className='flex justify-end' > <Image src={'/phone.svg'} alt="" width={350} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/marketing.png'} alt="" width={450} height={450} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a digital marketing and SEO agency that helps businesses increase their online visibility and reach their target audience. Our team of experienced digital marketers and SEO specialists use the latest techniques and strategies to deliver measurable results.
@@ -40,7 +41,7 @@ const Digital_Marketing = () => {
         </div>
         
         {/* accordion FAQ section */}
-        {/* <FrequentlyAskedQ /> */}
+        <DigitalMarkeingFaq />
 
       </div>
   )
