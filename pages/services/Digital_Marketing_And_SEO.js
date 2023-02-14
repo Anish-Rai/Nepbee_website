@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import DigitalMarketingPricing from '../pricing/Digital_Marketing_And_Seo'
 import DigitalMarkeingFaq from '../faq/DigitalMarketingFaq'
 const Digital_Marketing = () => {
   return (
@@ -39,7 +40,7 @@ const Digital_Marketing = () => {
 
         
         </div>
-        
+        <DigitalMarketingPricing />
         {/* accordion FAQ section */}
         <DigitalMarkeingFaq />
 

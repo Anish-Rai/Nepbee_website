@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import ContentWritingFaq from '../faq/ContentWritingFaq'
+import ContentWritingPricing from '../pricing/Content_Writing'
 const Content_Writing = () => {
   return (
     <div className=''>
@@ -37,7 +38,7 @@ const Content_Writing = () => {
 
         
         </div>
-        
+        <ContentWritingPricing />        
         {/* accordion FAQ section */}
         <ContentWritingFaq />
 
