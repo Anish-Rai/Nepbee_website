@@ -20,37 +20,37 @@ export default function ServiceList(){
         {
             logo:HiDevicePhoneMobile,
             title:'Mobile App Development',
-            description:'With the help of our great mobile app development services, you may alter the way your business operates. We provide seamless user experiences across all current platforms and devices. ',
+            description:'With the help of our great mobile app development services, you may alter the way your business operates. ',
             slug:"Mobile_App_Development"
         },
         {
             logo:MdContentPaste,
             title:'Content Writing',
-            description:'We are, as our name suggests, a group of highly qualified individuals who produce content. When you use our expert content services, you collaborate with a group of skilled content marketers, writers, designers, and developers rather than a single person. ',
+            description:'We are, as our name suggests, a group of highly qualified individuals who produce content. ',
             slug:"Content_Writing"
         },
         {
             logo:AiOutlineFileSearch,
             title:'Digital Marketing & SEO',
-            description:'Thanks to our team of experts, who collectively have decades of experience, we have been successful in increasing the online exposure of many businesses on the World Wide Web. We analyze the brand, pinpoint the audience, and implement specialized SEO tactics.',
+            description:'Thanks to our team of experts, who collectively have years of experience, we have been successful in increasing the online exposure of many businesses.',
             slug:"Digital_Marketing_And_SEO"
         },
         {
             logo:MdDesignServices,
             title:'Graphics & Logo Design',
-            description:'We can take a creative approach to portraying a business or brand in the best way possible to appeal to their customers because of our love for creativity and our great designs. We always make sure that our concepts and designs impress our customers. ',
+            description:'We can take a creative approach to portraying a business or brand in the best way possible to appeal to their customers.',
             slug:"Graphics_And_Logo_Design"
         },
         {
             logo:BiDesktop,
             title:'Desktop App Development',
-            description:'Our main area of expertise is desktop software development. Combining our years of experience, years of technical competence, and in-depth knowledge of the low-level desktop operating systems architecture, we are able to provide the whole cycle of desktop application development services required to address the most difficult problems for our customers.',
+            description:'Our main area of expertise is desktop software development. ',
             slug:"Desktop_App_Development"
         },
         {
             logo:BsCloudCheck,
             title:'Domain and Hosting Services',
-            description:"If you're looking for a high-end web hosting plan for your website, you have come to the correct place! We provide exceptional web hosting plans that are user-friendly for everyone!",
+            description:"If you're looking for a high-end web hosting plan for your website, you have come to the correct place! We provide exceptional web hosting plans.",
             slug:"Domain_And_Hosting_Service"
         },
         {

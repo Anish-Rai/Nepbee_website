@@ -1,39 +1,31 @@
 import React, {useState} from 'react'
-import {
-    Accordion,
-    AccordionHeader,
-    AccordionBody,
-  } from "@material-tailwind/react";
+
+
 const FrequentlyAskedQ = () => {
-    const [open, setOpen] = useState(0);
- 
-    const handleOpen = (value) => {
-      setOpen(open === value ? 0 : value);
-    };
-   
-    const customAnimation = {
-      mount: { scale: 1 },
-      unmount: { scale: 0.9 },
-    };
+   const [open,setOpen] = useState(0)
+   const handleOpen = (value) =>{
+      const tem = value
+      const count = 0
+      if (count==0){
+        setOpen(value)
+      }
+      
+      
+
+   }
+
   return (
-    <div className='bg-[#F6F6F6]'>
-        <div className='lg:px-44 lg:py-20 p-4'>
-        <h1 className=' text-2xl lg:text-5xl lg:font-bold font-semibold  lg:pt-0 lg:pb-7 pb-3'>FAQ</h1>
-            <Accordion open={open === 2} animate={customAnimation}>
-            <hr/>
-            <AccordionHeader onClick={() => handleOpen(2)} className="">
-            How to use Material Tailwind?
-            </AccordionHeader>
-            <hr/>
-            <AccordionBody>
-            We&apos;re not always in the position that we want to be at.
-            We&apos;re constantly growing. We&apos;re constantly making mistakes.
-            We&apos;re constantly trying to express ourselves and actualize our
-            dreams.
-            </AccordionBody>
-        </Accordion>
-        </div>
+    <div>
+      <div>
+        <h1 onClick={()=>{handleOpen(1)}}> what what what?</h1>
+        <p className={`${open==1?'block':'hidden'}`}>hellow how are tou sdfl sadfklsdjl fjsldkf jsldf </p>
+      </div>
+      <div>
+        <h1 onClick={()=>{handleOpen(2)}}> what what what?</h1>
+        <p className={`${open==2?'block':'hidden'}`}>hellow how are tou sdfl sadfklsdjl fjsldkf jsldf </p>
+      </div>
     </div>
+
   )
 }
 

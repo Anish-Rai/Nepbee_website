@@ -3,9 +3,9 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div id='about' className='lg:flex lg:justify-center lg:items-center py-10 lg:pt-0  lg:bg-transparent px-4 lg:px-44'>
-      <div className='lg:w-[50%]'>
+      <div className='lg:w-[50%] flex justify-center items-center'>
         
-        <Image src="/ghan1.jpg" alt="" width={600} height={800} className=" w-[90%] hidden lg:block rounded-full" />
+        <Image src="/ghan1.jpg" alt="" width={600} height={800} className=" w-[80%]  rounded-full" />
         
       </div>
       <div className='lg:w-[50%] lg:ml-20'>
