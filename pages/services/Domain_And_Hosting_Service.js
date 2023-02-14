@@ -6,7 +6,7 @@ const Domain_and_Hosting_Service = () => {
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-blue-500 lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Your one-stop solution for powerful and reliable web hosting.</h1>  
-            <div className='flex justify-end' > <Image src={'/services/hosting.png'} alt="" width={550} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/hosting.png'} priority alt="" width={550} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading provider of web hosting and domain services. Our mission is to provide businesses with affordable and reliable web hosting solutions that meet their specific needs. We understand the importance of having a fast and reliable website, which is why we offer a range of web hosting and domain services that are designed to meet the needs of businesses of all sizes.
