@@ -1,14 +1,23 @@
 import React from 'react'
+import { motion as m } from 'framer-motion'
 import Image from 'next/image'
 const About = () => {
   return (
     <div id='about' className='lg:flex lg:justify-center lg:items-center py-10 lg:pt-0  lg:bg-transparent px-4 lg:px-44'>
-      <div className='lg:w-[50%] flex justify-center items-center'>
+      <m.div
+      initial={{ opacity: 0,x:"-50%" }}
+      whileInView={{ opacity: [0,0.2,0.5,0.7,1], x:"0" }}
+      transition={{duration:1}}
+      className='lg:w-[50%] flex justify-center items-center'>
         
         <Image src="/ghan1.jpg" alt="" width={600} height={800} className=" w-[80%]  rounded-full" />
         
-      </div>
-      <div className='lg:w-[50%] lg:ml-20'>
+      </m.div>
+      <m.div 
+      initial={{ opacity: 0,x:"50%" }}
+      whileInView={{ opacity: 1, x:"0" }}
+      transition={{duration:1}}
+      className='lg:w-[50%] lg:ml-20'>
         <h1 className='text-2xl lg:text-5xl lg:font-bold font-semibold pt-4 lg:pt-0'>ABOUT US</h1>
         <p className='mt-4'>NepBee is a start-up IT company that is dedicated to providing top-notch technology solutions to businesses of all sizes. We believe in the power of innovation and strive to stay ahead of the curve when it comes to emerging technologies. Our team of highly skilled and experienced professionals are committed to delivering tailored solutions that meet the unique needs of each and every one of our clients.
 
@@ -21,7 +30,7 @@ So if you&apos;re ready to take your business to the next level with the help of
 
 
         </p>
-      </div>
+      </m.div>
     </div>
   )
 }
