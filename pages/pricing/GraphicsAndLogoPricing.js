@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsFillCheckCircleFill} from 'react-icons/bs'
 
-const GraphicsLogoPricing = () => {
+const GraphicsAndLogoPricing = () => {
     const basicPack = [
         {feature:'Designated Designer'},
         {feature:'unlimited Requests'},
@@ -108,4 +108,4 @@ const GraphicsLogoPricing = () => {
   )
 }
 
-export default GraphicsLogoPricing
+export default GraphicsAndLogoPricing

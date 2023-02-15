@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import DigitalMarketingPricing from '../pricing/Digital_Marketing_And_Seo'
+import DigitalMarketingPricing from '../pricing/DigitalMarketingPricing'
 import DigitalMarkeingFaq from '../faq/DigitalMarketingFaq'
 const Digital_Marketing = () => {
   return (

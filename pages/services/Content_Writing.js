@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import ContentWritingFaq from '../faq/ContentWritingFaq'
-import ContentWritingPricing from '../pricing/Content_Writing'
+import ContentWritingPricing from '../pricing/ContentWritingPricing'
 const Content_Writing = () => {
   return (
     <div className=''>
