@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import DataAnalyticFaq from '../faq/DataAnalyticFaq'
-import DataAnalytiscPricing from '../pricing/Data_Analytics'
+import DataAnalytiscPricing from '../pricing/Data_Analytics_Pricing'
 const Data_Analytics = () => {
   return (
     <div className=''>

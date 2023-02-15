@@ -13,7 +13,6 @@ const WebAppPricing = () => {
         {feature:'use of php'},
         {feature:'Regular Backup'},
         {feature:'Fast Delivery Additional Cost'},
-        {feature:'1 year free maintainance'},
         
     ]
     const premiumPack = [
@@ -27,7 +26,7 @@ const WebAppPricing = () => {
         {feature:'Use of javascript/python/php'},
         {feature:'Regular Backup'},
         {feature:'Fast Delivery Additional Cost'},
-        {feature:'1 year free maintainance'},
+        {feature:'6 month free maintainance'},
     ]
     const professionalPack = [
         {feature:'Multiple page'},

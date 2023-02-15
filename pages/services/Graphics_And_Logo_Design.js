@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import GraphicsAndLogoFaq from '../faq/GraphicsAndLogoFaq'
-import GraphicsLogoPricing from '../pricing/Graphics_And_Logo'
+import GraphicsLogoPricing from '../pricing/Graphics_And_Logo_Pricing'
 const Graphics_And_Logo_Design = () => {
   return (
     <div className=''>
