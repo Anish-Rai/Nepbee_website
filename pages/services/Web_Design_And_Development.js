@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import WebDesignAndDevelopmentFaq from '../faq/WebDesignAndDevelopmentFaq'
-import WebAppPricing from '../pricing/Web_design_and_development_Pricing'
+import WebAppPricing from '../pricing/Web_Design_And_Development_Pricing'
 const WebDevelopment = () => {
   return (
     <div className=''>
