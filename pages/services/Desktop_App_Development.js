@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import DesktopAppFaq from '../faq/DesktopAppFaq'
+import DesktopAppPricing from '../pricing/Desktop_App_Development'
 const Desktop_App_Development = () => {
   return (
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-[#A89038] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Create Fully Responsive Desktop Application With Us</h1>  
-            <div className='flex justify-end' > <Image src={'/services/desktop.png'} alt="" width={550} height={200} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/desktop.png'} priority alt="" width={550} height={200} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading provider of custom desktop application development solutions. Our team of experienced developers leverages the latest technologies and tools to build robust, reliable, and scalable desktop applications that meet the unique needs of your business.
@@ -29,7 +30,7 @@ const Desktop_App_Development = () => {
 
         
         </div>
-        
+        <DesktopAppPricing />
         {/* accordion FAQ section */}
         <DesktopAppFaq />
 

@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import DataAnalyticFaq from '../faq/DataAnalyticFaq'
+import DataAnalytiscPricing from '../pricing/Data_Analytics'
 const Data_Analytics = () => {
   return (
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-yellow-300 lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Manage Your Data With Data Engineers</h1>  
-            <div className='flex justify-end' > <Image src={'/services/datanalytic.png'} alt="" width={650} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/datanalytic.png'} priority alt="" width={650} height={300} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading provider of data analytics services that help businesses turn data into actionable insights. Our team of experienced data analysts leverages the latest technologies and tools to collect, process, and analyze data from a variety of sources, including websites, online marketplaces, and social media platforms.
@@ -33,6 +34,7 @@ const Data_Analytics = () => {
 
         
         </div>
+        <DataAnalytiscPricing />
         
         {/* accordion FAQ section */}
         <DataAnalyticFaq />

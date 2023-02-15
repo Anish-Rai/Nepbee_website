@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import MobileAppFaq from '../faq/MobileAppFaq'
+import MobileAppPricing from '../pricing/Mobile_App_Development'
 const Mobile_App_Development = () => {
   return (
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-[#023A81] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Are You Excited For Seamless Mobile Application Experience</h1>  
-            <div className='flex justify-end' > <Image src={'/services/phone.svg'} alt="" width={400} height={500} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/phone.svg'} priority alt="" width={400} height={500} className="lg:absolute lg:top-[15%] static" />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading provider of innovative mobile app development solutions. Our team of experienced developers leverages the latest technologies and tools to build custom mobile applications that meet the unique needs of your business.
@@ -31,7 +32,7 @@ const Mobile_App_Development = () => {
 
         
         </div>
-        
+        <MobileAppPricing />
         {/* accordion FAQ section */}
         <MobileAppFaq />
 
