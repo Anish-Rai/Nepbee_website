@@ -57,6 +57,7 @@ const ContentWritingPricing = () => {
             </div>
 
             <div className=' text-white shadow-full-shadow-dark p-10 bg-gradient-to-br from-blue-700 to-purple-500 rounded-2xl'>
+               <div>Most Popular</div>
                 <h2 className='text-center text-2xl font-medium pb-2'>Premium</h2>
                 <p className='text-center text-sm'>Suitable for medium scale Enterprise</p>
                 <h1 className='text-center font-bold text-5xl pt-2  pb-7'>Rs 15,000</h1>
