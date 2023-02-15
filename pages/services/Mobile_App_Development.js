@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import MobileAppFaq from '../faq/MobileAppFaq'
-import MobileAppPricing from '../pricing/Mobile_App_Development_Pricing'
+import MobileAppPricing from '../pricing/MobileAppPricing'
 const Mobile_App_Development = () => {
   return (
     <div className=''>

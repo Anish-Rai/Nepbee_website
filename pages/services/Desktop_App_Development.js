@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import DesktopAppFaq from '../faq/DesktopAppFaq'
-import DesktopAppPricing from '../pricing/Desktop_App_Development_Pricing'
+import DesktopAppPricing from '../pricing/DesktopAppPricing'
 const Desktop_App_Development = () => {
   return (
     <div className=''>
