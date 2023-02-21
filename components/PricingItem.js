@@ -57,8 +57,8 @@ const PricingItem = ({originaldata,filter}) => {
                         serviceList.map(({feature},key)=>{
                             return (
                                 <li className='flex items-center' key={key} >
-                                    <BsFillCheckCircleFill className='text-blue-700'/>
-                                    <p className='pl-3 leading-9'> {feature} </p> 
+                                    <BsFillCheckCircleFill className='text-blue-700 flex-shrink-0'/>
+                                    <p className='pl-3 leading-9 flex-shrink-0'> {feature} </p> 
                                 </li>
                             )
                         })
