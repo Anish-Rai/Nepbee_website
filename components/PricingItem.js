@@ -66,9 +66,9 @@ const PricingItem = ({originaldata,filter}) => {
                     
 
                 </ul>
-                <div className='flex justify-center'>
+                {/* <div className='flex justify-center'>
                     <button className={`transition-colors duration-300 ease-out bg-slate-800 px-6 py-1 ${buttonColor} hover:text-black font-semibold mt-6 rounded-full lg:text-2xl w-[100%] text-white`} onMouseEnter={()=>setValue(true)} onMouseLeave={()=>setValue(false)}>Contact Us</button>
-                </div>
+                </div> */}
             </div>
         </div>
     
