@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import DataAnalyticFaq from '../faq/DataAnalyticFaq'
-import DataAnalyticsPricing from '../pricing/DataAnalyticsPricing'
 const Data_Analytics = () => {
   return (
     <div className=''>
@@ -34,7 +33,6 @@ const Data_Analytics = () => {
 
         
         </div>
-        <DataAnalyticsPricing />
         
         {/* accordion FAQ section */}
         <DataAnalyticFaq />

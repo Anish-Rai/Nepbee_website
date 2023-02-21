@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import DomainAndHostingFaq from '../faq/DomainAndHostingFaq'
-import DomainHostingPricing from '../pricing/DomainHostingPricing'
 const Domain_and_Hosting_Service = () => {
   return (
     <div className=''>
@@ -42,7 +41,6 @@ const Domain_and_Hosting_Service = () => {
 
         
         </div>
-        <DomainHostingPricing />
         {/* accordion FAQ section */}
         <DomainAndHostingFaq />
 

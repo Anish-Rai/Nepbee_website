@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import ContentWritingFaq from '../faq/ContentWritingFaq'
-import ContentWritingPricing from '../pricing/ContentWritingPricing'
+
 const Content_Writing = () => {
   return (
     <div className=''>
         <div className='lg:grid lg:grid-cols-2 bg-[#528ddb] lg:px-44 lg:py-20 py-4 px-4 relative flex justify-center items-center'>  
             <h1 className=' lg:text-7xl text-2xl lg:font-bold text-white '>Write Your Content From Our Experienced Content Writers</h1>  
-            <div className='flex justify-end' > <Image src={'/services/contentwriting.png'} priority alt="" width={650} height={700} className="lg:absolute lg:top-[15%] static" />  </div>
+            <div className='flex justify-end' > <Image src={'/services/contentwriting.png'} priority alt="" width={650} height={700} className="lg:absolute lg:top-[15%] static " />  </div>
         </div>
         <div className='lg:pl-44 lg:pr-[50%] lg:py-20 py-4 px-4'>
           <p>Nepbee Technology is a leading content writing agency that provides high-quality, engaging, and informative content for businesses. Our team of experienced writers creates content that is optimized for search engines, readers, and social media to help businesses increase their online visibility and reach their target audience.
@@ -38,7 +38,7 @@ const Content_Writing = () => {
 
         
         </div>
-        <ContentWritingPricing />        
+       
         {/* accordion FAQ section */}
         <ContentWritingFaq />
 

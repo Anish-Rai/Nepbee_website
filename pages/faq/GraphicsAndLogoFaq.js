@@ -62,7 +62,7 @@ const GraphicsAndLogoFaq = () => {
                 return (
                   <div key={key}>
                     <Accordion open={open === key+1} icon={<Icon id={key+1} open={open} />}>
-                            <AccordionHeader onClick={() => handleOpen(key+1)} className="">
+                            <AccordionHeader onClick={() => handleOpen(key+1)} className="w-[100%] text-sm lg:text-xl ">
                                   {q}
                                   
                             </AccordionHeader>

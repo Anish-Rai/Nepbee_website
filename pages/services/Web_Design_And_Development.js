@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import WebDesignAndDevelopmentFaq from '../faq/WebDesignAndDevelopmentFaq'
-import WebAppPricing from '../pricing/WebAppPricing'
+import dynamic from 'next/dynamic'
+
 const WebDevelopment = () => {
   return (
     <div className=''>
@@ -38,9 +39,9 @@ const WebDevelopment = () => {
           </p>
         
         </div>
-        <WebAppPricing />
         {/* accordion FAQ section */}
         <WebDesignAndDevelopmentFaq />
+
 
       </div>
   )

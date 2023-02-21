@@ -9,6 +9,7 @@ const Navbar = () => {
     {href:'/#about', name:'About'},
     {href:'/#services', name:'Services'},
     {href:'/#portfolio', name:'Portfolio'},
+    {href:'/pricing', name:'Pricing'},
     {href:'/#contactus', name:'Contact'},
 ]
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import GraphicsAndLogoFaq from '../faq/GraphicsAndLogoFaq'
-import GraphicsAndLogoPricing from '../pricing/GraphicsAndLogoPricing'
+
 
 const Graphics_And_Logo_Design = () => {
   return (
@@ -36,7 +36,7 @@ const Graphics_And_Logo_Design = () => {
               
               
         </div>
-        <GraphicsAndLogoPricing />
+
         {/* accordion FAQ section */}
         <GraphicsAndLogoFaq />
 
