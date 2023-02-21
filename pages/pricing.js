@@ -55,7 +55,7 @@ useEffect(() => {
 
 
 export async function getServerSideProps() {
-    const response = await fetch(`http://127.0.0.1:3000/api/pricing`)      
+    const response = await fetch(process.env.HOST)      
     const data = await response.json()
     const jsonData = JSON.parse(data)
     return {
