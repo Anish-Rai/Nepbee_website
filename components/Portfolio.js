@@ -23,7 +23,6 @@ const Portfolio = () => {
     const updatedItem = projectList.filter((curItem)=>{
       return curItem.categories === item
     })
-    console.log(item)
     setItems(updatedItem)
   }
   
