@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import MobileAppFaq from '../faq/MobileAppFaq'
-import MobileAppPricing from '../pricing/MobileAppPricing'
 const Mobile_App_Development = () => {
   return (
     <div className=''>
@@ -32,7 +31,7 @@ const Mobile_App_Development = () => {
 
         
         </div>
-        <MobileAppPricing />
+
         {/* accordion FAQ section */}
         <MobileAppFaq />
 

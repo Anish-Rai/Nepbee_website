@@ -1,14 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import About from '../components/About'
 import Hero from '../components/Hero'
 import ServiceList from '../components/ServiceList'
 import Portfolio from '../components/Portfolio'
 import Teams from '../components/Teams'
-import Pricing from '../components/Pricing'
-import Contact from '../components/Contact'
-import react, {useState} from 'react'
 import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
 import ToolsAndTechnology from '../components/ToolsAndTechnology'
@@ -84,7 +79,7 @@ export default function Home() {
         <ToolsAndTechnology />
         <ContactUs />
         {/* <Contact inputs={inputs} /> */}
-        {/* <Pricing /> */}
+        
       </main>
     </>
   )

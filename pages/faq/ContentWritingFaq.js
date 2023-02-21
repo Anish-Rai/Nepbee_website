@@ -52,10 +52,7 @@ const ContentWritingFaq = () => {
       setOpen(open === value ? 0 : value);
     };
    
-    const customAnimation = {
-      mount: { scale: 1 },
-      unmount: { scale: 0.9 },
-    };
+
   return (
     <div className='bg-[#F6F6F6]'>
         <div className='lg:px-44 lg:py-20 p-4'>
@@ -64,9 +61,8 @@ const ContentWritingFaq = () => {
             {
               question.map(({q,a},key)=>{
                 return (
-                  <div key={key}>
-                    <Accordion open={open === key+1} icon={<Icon id={key+1} open={open} />}>
-                            <AccordionHeader onClick={() => handleOpen(key+1)} className="">
+                    <Accordion key={key+1} open={open === key+1} icon={<Icon id={key+1} open={open} />} >
+                        <AccordionHeader onClick={() => handleOpen(key+1)} className="w-[100%] text-sm lg:text-xl ">
                                   {q}
                                   
                             </AccordionHeader>
@@ -75,7 +71,7 @@ const ContentWritingFaq = () => {
                                 {a}
                             </AccordionBody>
                   </Accordion>
-                  </div>
+                  
                 )
                   
                 

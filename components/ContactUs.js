@@ -16,11 +16,11 @@ const ContactUs = () => {
             </a>
             </div>
             <div className='pb-8 md:pb-20'>
-            <a href="mailto:info@nepbee.com">
+            <a href="https://goo.gl/maps/MybCjkUCCuKfeh3X9">
                 <h1 className=' md:flex md:justify-center'>
                     <MdOutlineLocationOn className='text-5xl' />
                 </h1>
-                 Kathmandu, Kupondole-Kandevta 
+                 Kathmanduq , Kupondole-Kandevta 
             </a>
             </div>
         </div>
