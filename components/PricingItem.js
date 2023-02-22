@@ -52,11 +52,11 @@ const PricingItem = ({originaldata,filter}) => {
                             <p className='text-center text-sm'>{title}</p>
                             <h1 className={`text-center font-bold text-5xl pt-2  text-orange-500`}>{price_npr}</h1>
                             <h1 className='text-center font-bold text-2xl pt-2 text-green-600 pb-7 capitalize'>{price_usd}</h1>
-                <ul>
+                <ul >
                     {
                         serviceList.map(({feature},key)=>{
                             return (
-                                <li className='flex items-center' key={key} >
+                                <li className='flex items-center ' key={key}  >
                                     <BsFillCheckCircleFill className='text-blue-700 flex-shrink-0'/>
                                     <p className='pl-3 leading-9 flex-shrink-0'> {feature} </p> 
                                 </li>
@@ -69,6 +69,7 @@ const PricingItem = ({originaldata,filter}) => {
                 {/* <div className='flex justify-center'>
                     <button className={`transition-colors duration-300 ease-out bg-slate-800 px-6 py-1 ${buttonColor} hover:text-black font-semibold mt-6 rounded-full lg:text-2xl w-[100%] text-white`} onMouseEnter={()=>setValue(true)} onMouseLeave={()=>setValue(false)}>Contact Us</button>
                 </div> */}
+
             </div>
         </div>
     
