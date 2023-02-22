@@ -1,0 +1,16 @@
+:hover.pricing::before{
+    width:calc(16.6%);
+}
+.pricing::before{
+    content: "";
+    height: 8px;
+    width:0;
+    position: absolute;
+    background-color: rgb(106, 106, 249);
+    border-radius: 20px 20px 0 0;
+    transition: 0.5s cubic-bezier(.86, .01, .15, .99);
+}
+
+.pricing{
+    background-color: none;
+}
