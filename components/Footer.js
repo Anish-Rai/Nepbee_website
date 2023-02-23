@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs'
+import {BsFacebook,BsInstagram,BsTwitter,BsLinkedin} from 'react-icons/bs'
 import {FaRegCopyright,FaMobileAlt} from 'react-icons/fa'
 import {MdOutlineLocationOn} from 'react-icons/md'
 const Footer = () => {
@@ -87,15 +87,18 @@ const Footer = () => {
         </ul>
         <div>
           <h3 className='text-3xl font-semibold pb-3'>Social Media Links</h3>
-          <ul className='flex text-4xl'>
+          <ul className='flex text-2xl'>
             <li className='hover:text-orange-500'> 
               <Link href="https://www.facebook.com/nepbeetech">  <BsFacebook />  </Link> 
             </li>
             <li className='px-10 hover:text-orange-500'> 
-              <Link href="#"> <BsInstagram /> </Link>
+              <Link href="https://www.instagram.com/nepbeetechnology"> <BsInstagram /> </Link>
             </li>
             <li className='hover:text-orange-500'> 
-              <Link href="/"> <BsTwitter /> </Link> 
+              <Link href="https://twitter.com/NepbeeTecnoloyy"> <BsTwitter /> </Link> 
+            </li>
+            <li className='px-10 hover:text-orange-500'> 
+              <Link href="https://twitter.com/NepbeeTecnoloyy"> <BsLinkedin /> </Link> 
             </li>
           </ul>
           <ul className='pt-10'>
