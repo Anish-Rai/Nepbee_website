@@ -51,9 +51,9 @@ const ServiceItem = (props) => {
                     const Icon = logo;
                     return (
                       <m.div 
-                      initial={{ opacity: 0,y:"50%" }}
+                      initial={{ opacity: 0.5,y:"50%" }}
                       whileInView={{ opacity: [0.2,0.5,1], y:"0" }}
-                      transition={{duration:1,type: "spring", stiffness: 100}}
+                      transition={{duration:1,type: "spring", stiffness: 200}}
                       className={`lg:mx-5 shadow-md bg-white ${color} ${lineColor}  before:h-2 before:absolute before:w-0 before:transition-all before:delay-300 before:ease-in hover:before:w-[calc(100%)] before:rounded-t-full  rounded-xl my-4  lg:w-[27%]`} key={key} onMouseEnter={()=>colorPicker(key+1)}>
                       <div className='lg:text-center p-3'>
                         <Link href={`/services/${encodeURIComponent(slug)}`} passHref key={key}>
