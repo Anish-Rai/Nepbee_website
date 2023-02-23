@@ -82,23 +82,23 @@ const Footer = () => {
             <FaMobileAlt /> <a href="tel:+977-9840022255" className='pl-1'>+977-9840022255</a>
           </li>
           <li className='flex items-center hover:text-orange-500'>
-            <MdOutlineLocationOn className='text-lg' /> <p className='pl-1'> <a href="https://goo.gl/maps/KNqBu2dNHVc1Yj1eA"> Kupondole, kandevta </a> </p>
+            <MdOutlineLocationOn className='text-lg' /> <p className='pl-1'> <Link href="https://goo.gl/maps/KNqBu2dNHVc1Yj1eA" target="_blank"> Kupondole, kandevta </Link> </p>
           </li>
         </ul>
         <div>
           <h3 className='text-3xl font-semibold pb-3'>Social Media Links</h3>
-          <ul className='flex text-2xl'>
+          <ul className='flex text-2xl '>
             <li className='hover:text-orange-500'> 
-              <Link href="https://www.facebook.com/nepbeetech">  <BsFacebook />  </Link> 
+              <Link href="https://www.facebook.com/nepbeetech" target="_blank">  <BsFacebook />  </Link> 
             </li>
             <li className='px-10 hover:text-orange-500'> 
-              <Link href="https://www.instagram.com/nepbeetechnology"> <BsInstagram /> </Link>
+              <Link href="https://www.instagram.com/nepbeetechnology" target="_blank"> <BsInstagram /> </Link>
             </li>
             <li className='hover:text-orange-500'> 
-              <Link href="https://twitter.com/NepbeeTecnoloyy"> <BsTwitter /> </Link> 
+              <Link href="https://twitter.com/NepbeeTecnoloyy" target="_blank"> <BsTwitter /> </Link> 
             </li>
             <li className='px-10 hover:text-orange-500'> 
-              <Link href="https://twitter.com/NepbeeTecnoloyy"> <BsLinkedin /> </Link> 
+              <Link href="https://twitter.com/NepbeeTecnoloyy" target="_blank"> <BsLinkedin /> </Link> 
             </li>
           </ul>
           <ul className='pt-10'>
