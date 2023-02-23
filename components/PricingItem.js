@@ -43,13 +43,13 @@ const PricingItem = ({originaldata,filter}) => {
                                 <h2 className={`text-center text-2xl py-2 font-medium pb-2 rounded-t-2xl absolute z-40 ${mouseEnter===key+1?'text-white':'text-black'}`}>{type}</h2>
                             </div>
 
-                            <div className={` p-10 pt-14  bg-white  rounded-b-2xl   border `}>
+                            <div className={` p-10 lg:pt-16 pt-14  bg-white  rounded-b-2xl   border `}>
                             {
                                ( type=="Premium") && (<div className='flex justify-center pt-2 pb-7'>
                                 <button className='text-center bg-green-200 py-1 px-4 rounded'>Most Popular</button>
                                 </div>)
                             } 
-                            <p className='text-center text-sm'>{title}</p>
+                            <p className='text-center text-sm pt-4'>{title}</p>
                             <h1 className={`text-center font-bold text-5xl pt-2  text-orange-500`}>{price_npr}</h1>
                             <h1 className='text-center font-bold text-2xl pt-2 text-green-600 pb-7 capitalize'>{price_usd}</h1>
                 <ul >

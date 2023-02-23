@@ -46,7 +46,6 @@ const Teams = () => {
                                 initial={{ opacity: 0,x:"50%" }}
                                 whileInView={{ opacity: [0,0.2,0.5,0.7,1], x:"0" }}
                                 transition={{duration:1}}
-                                className='flex justify-center items-center '
                                 >
                                 <h3 className='text-xl font-semibold'> {title} </h3>
                                 <p> {description} </p>
