@@ -20,7 +20,7 @@ const ContactUs = () => {
                 <h1 className=' md:flex md:justify-center'>
                     <MdOutlineLocationOn className='text-5xl' />
                 </h1>
-                 Kathmanduq , Kupondole-Kandevta 
+                 Kathmandu , Kupondole-Kandevta 
             </a>
             </div>
         </div>
