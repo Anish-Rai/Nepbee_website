@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
 import Style from '../styles/ServiceItem.module.css'
+import {motion as m} from 'framer-motion'
 const ServiceItem = (props) => {
   const {serviceList} = props
   const [color,setColor] = useState('hover:shadow-none')
@@ -49,7 +50,11 @@ const ServiceItem = (props) => {
                 {serviceList.map(({logo,slug,title,description},key)=>{
                     const Icon = logo;
                     return (
-                      <div className={`lg:mx-5 shadow-md bg-white ${color} ${lineColor}  before:h-2 before:absolute before:w-0 before:transition-all before:delay-300 before:ease-in hover:before:w-[calc(16.6%)] before:rounded-t-full  rounded-xl my-4  lg:w-[27%]`} key={key} onMouseEnter={()=>colorPicker(key+1)}>
+                      <m.div 
+                      initial={{ opacity: 0,y:"50%" }}
+                      whileInView={{ opacity: [0.2,0.5,1], y:"0" }}
+                      transition={{duration:1,type: "spring", stiffness: 100}}
+                      className={`lg:mx-5 shadow-md bg-white ${color} ${lineColor}  before:h-2 before:absolute before:w-0 before:transition-all before:delay-300 before:ease-in hover:before:w-[calc(100%)] before:rounded-t-full  rounded-xl my-4  lg:w-[27%]`} key={key} onMouseEnter={()=>colorPicker(key+1)}>
                       <div className='lg:text-center p-3'>
                         <Link href={`/services/${encodeURIComponent(slug)}`} passHref key={key}>
                         <h2 className='text-6xl pt-3 px-2 lg:flex lg:justify-center lg:hover:animate-spin'> <Icon /> </h2>
@@ -57,7 +62,7 @@ const ServiceItem = (props) => {
                         <p className='px-2'>{description}</p>
                         </Link>
                       </div>
-                  </div>
+                  </m.div>
                     )
                 })}
                 
