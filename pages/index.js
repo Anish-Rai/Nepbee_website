@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script';
 import About from '../components/About'
 import Hero from '../components/Hero'
 import ServiceList from '../components/ServiceList'
@@ -63,12 +64,25 @@ export default function Home() {
   ]
   return (
     <>
+  <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-WY9KXBBRR7`} />
+
+  <Script id=""strategy="lazyOnload">
+    {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WY9KXBBRR7', {
+        page_path: window.location.pathname,
+        });
+    `}
+</Script>
       <Head>
         <title>Nepbee</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" />
         <meta name="description" content={`${seoList}`} />
       </Head>
+      
       <main>
         <Hero />
         <About />
